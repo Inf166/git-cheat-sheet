@@ -36,6 +36,7 @@ $ git cherry-pick LOST-COMMIT-SHA1
 **NOTE** Will be cleaned once `git gc` was executed.
 
 ## Check Log for a file or repo
+
 ```
 $ git log --oneline --graph
 $ git blame FILE-NAME.xoxo
@@ -43,6 +44,7 @@ $ git log -S<what you are looking for>
 ```
 
 ## Branches
+
 Used for parallel cooperative work.
 ```
 $ git checkout -b <newbranchname>
@@ -55,7 +57,14 @@ To merge branches, type:
 ```
 $ git merge <branchname>
 ```
+To clean up commits in branches:
+```
+$ git rebase --interactive master //go through manual
+$ git merge --squash //Just one Commit for a branch
+```
+
 ## Merging
+
 This command will execute edits from another branch on the master files. So you will have a merged repo but with no merge executed.
 ```
 $ git merge --ff <branchname>

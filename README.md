@@ -62,5 +62,5 @@ $ git merge --ff <branchname>
 ```
 How to delete a branch:
 ```
-git branch -d <branchname>
+$ git branch -d <branchname>
 ```

@@ -1,4 +1,4 @@
-#Git-Cheat-Sheet
+#Git-Cheat-Sheet:
 
 Initialize `init` to the first git-repo with:
 ```
